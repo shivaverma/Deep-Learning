@@ -43,12 +43,12 @@ def gradient_descent(x, y, c):
     n, p = np.shape(x)
     w = np.random.randn(p, c)*0.001
     step_size = .001
-    print 'original loss: %f' % hinge_loss(x, y, w)
+    print('original loss: %f' % hinge_loss(x, y, w))
     for i in xrange(10):
         df = evaluate_gradient(x, y, w)
         w = w - df*step_size
         loss = hinge_loss(x, y, w)
-        print loss
+        print(loss)
     return w
 
 

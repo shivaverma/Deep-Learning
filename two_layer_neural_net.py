@@ -17,7 +17,7 @@ def train(x, y):
         l1_delta = l2_delta.dot(syn1.T)*(l1*(1-l1))
         syn1 += l1.T.dot(l2_delta)                     # updating weights
         syn0 += x.T.dot(l1_delta)
-        print syn1
+        print(syn1)
 
 
 if __name__ == '__main__':

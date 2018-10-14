@@ -30,5 +30,4 @@ if __name__ == '__main__':
 
     x_train, y_train, x_test, y_test = unpack()
     weights = gradient_descent(x_train, y_train, 10)
-    print weights
-
+    print(weights)

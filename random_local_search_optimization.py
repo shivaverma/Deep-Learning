@@ -24,7 +24,7 @@ def random_local_search(x, y, c):
         if loss < best_loss:
             best_loss = loss
             best_w = w_try
-            print best_loss
+            print(best_loss)
     return best_w
 
 

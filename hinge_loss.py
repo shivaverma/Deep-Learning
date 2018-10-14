@@ -39,4 +39,4 @@ if __name__ == '__main__':
     x = np.array([[3, 1, 6, 3], [1, 3, 2, 1], [3, 2, 4, 1]])             # three images
     w = np.array([[0, 0, 4], [2, 1, 2], [6, 5, 3], [3, 0, 0]])           # weights.  3 * 4. (3 total classes)
     y = np.array([1, 0, 2])                                              # correct label of class (1 is cat)
-    print hinge_loss(x, y, w)
+    print(hinge_loss(x, y, w))
