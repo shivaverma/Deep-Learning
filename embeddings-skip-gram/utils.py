@@ -21,7 +21,7 @@ def preprocess(text):
     
     # Remove all words with  5 or fewer occurences
     word_counts = Counter(words)
-    trimmed_words = [word for word in words if word_counts[word] > 15]
+    trimmed_words = [word for word in words if word_counts[word] > 5]
 
     return trimmed_words
 
