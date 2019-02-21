@@ -7,7 +7,7 @@
 - Created a pipeline for preprocessing and sentimental analysis for the reviews.
 
 ### weight-initialization
-- Analysis on different ways of weight initialization startigies and its impact on neural networks.
+- Analysis on different ways of weight initialization stratigies and its impact on neural networks.
 
 ### skip-gram-embeddings
 - Implemented the code to generate skip gram embeddings for words.
